@@ -1,0 +1,188 @@
+@media screen and (max-width: 320px) {
+  #menu-icon {
+    display: block;
+  }
+
+  .nav_links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #fff; 
+    padding: 10px;
+  }
+
+  .nav_links.show {
+    display: flex;
+  }
+
+  
+  .nav_links a {
+    color: #000; 
+  }
+
+  .company_name{
+    font-size: 60px;
+  }
+
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  #menu-icon {
+    display: block;
+  }
+
+  .nav_links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #fff; 
+    padding: 10px;
+  }
+
+  .nav_links.show {
+    display: flex;
+  }
+
+  
+  .nav_links a {
+    color: #000; 
+  }
+
+
+  #about{
+    height: 1300px;
+  }
+
+  .about_img{
+    padding-top: 50px;
+  }
+
+  .about_text {
+    height: 1000px;
+    width: 350px;
+  }
+
+  #services{
+    height: 2200px;
+  }
+
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  #menu-icon {
+    display: block;
+  }
+
+  .nav_links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #fff; 
+    padding: 10px;
+  }
+
+  .nav_links.show {
+    display: flex;
+  }
+
+  
+  .nav_links a {
+    color: #000; 
+  }
+
+  #about{
+    height: 1300px;
+  }
+
+  .about_img{
+    padding-top: 50px;
+  }
+
+  .about_text {
+    height: 1000px;
+    width: 350px;
+  }
+
+  #services{
+    height: 2200px;
+  }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #menu-icon {
+    display: block;
+  }
+
+  .nav_links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #fff; 
+    padding: 10px;
+  }
+
+  .nav_links.show {
+    display: flex;
+  }
+  
+  .nav_links a {
+    color: #000; 
+  }
+
+  #about{
+    height: 1300px;
+  }
+
+  .about_img{
+    padding-top: 50px;
+  }
+
+  .about_text {
+    height: 1000px;
+    width: 350px;
+  }
+
+  #services{
+    height: 2200px;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+  #nav_container {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  #about{
+    height: 1300px;
+  } 
+
+  .about_img{
+    padding-top: 50px;
+  }
+
+
+  #services{
+    height: 2200px;
+  }
+
+}
+

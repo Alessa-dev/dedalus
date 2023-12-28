@@ -1,0 +1,85 @@
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.popupBody {
+  width: 46%;
+  padding: 2%;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #CCC;
+  background: #FFF;
+  position: relative;
+  margin: 20% auto;
+}
+
+.popupBody h2 {
+  margin-top: 0;
+}
+
+/*Imagen popup estilos*/
+
+#imagenPopup {
+  cursor: pointer;
+}
+
+#cerrar {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/*card1 popup estilos*/
+
+#cardPopup1 {
+  cursor: pointer;
+}
+
+
+#cerrarc1 {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+
+/*card2 poup estilos*/
+
+#cardPopup2 {
+  cursor: pointer;
+}
+
+#cerrarc2 {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/*card3 poup estilos*/
+
+#cardPopup3 {
+  cursor: pointer;
+}
+
+#cerrarc3 {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
