@@ -27,6 +27,10 @@
     font-size: 60px;
   }
 
+  .services_fondo{
+    visibility: hidden;
+  }
+
 }
 
 
@@ -73,6 +77,9 @@
     height: 2200px;
   }
 
+  .services_fondo{
+    visibility: hidden;
+  }
 
 }
 
@@ -118,6 +125,10 @@
     height: 2200px;
   }
 
+  .services_fondo{
+    visibility: hidden;
+  }
+
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -161,6 +172,10 @@
     height: 2200px;
   }
 
+  .services_fondo{
+    visibility: hidden;
+  }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -172,7 +187,7 @@
   }
   
   #about{
-    height: 1300px;
+    height: 1000px;
   } 
 
   .about_img{
@@ -181,7 +196,29 @@
 
 
   #services{
-    height: 2200px;
+    height: 2000px;
+  }
+
+  .services_fondo{
+    visibility: hidden;
+  }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1319px) {
+  
+  #nav_container {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  #services{
+    height: 1500px;
+  }
+
+  .services_fondo{
+    visibility: hidden;
   }
 
 }
