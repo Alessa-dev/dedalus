@@ -1,4 +1,9 @@
 @media screen and (max-width: 320px) {
+  .principal_div{
+    width: 320px;
+    height: 100%;
+  }
+
   #menu-icon {
     display: block;
   }
@@ -18,13 +23,45 @@
     display: flex;
   }
 
-  
   .nav_links a {
     color: #000; 
   }
 
+  #home{
+    height: 800px;
+    width: 320px;
+  }
+
   .company_name{
     font-size: 60px;
+  }
+
+  .home_img {
+    height: 300px; 
+    width: 300px; 
+  }
+
+  .home_fondo{
+    visibility: hidden;
+  }
+
+  #about{
+    height: 1200px;
+    gap: 10px;
+  }
+
+  .about_img {
+    height: 300px; 
+    width: 300px; 
+  }
+
+  .about_text{
+    height: 800px;
+    width: 300px;
+  }
+
+  #services{
+    height: 2200px;
   }
 
   .services_fondo{
@@ -54,14 +91,26 @@
     display: flex;
   }
 
-  
   .nav_links a {
     color: #000; 
   }
 
+  #home{
+    height: 900px;
+    max-width: 375px;
+  }
+
+  .home_fondo{
+    visibility: hidden;
+  }
+
+  .home_img {
+    height: 350px; 
+    width: 350px; 
+  }
 
   #about{
-    height: 1300px;
+    height: 1200px;
   }
 
   .about_img{
@@ -108,13 +157,25 @@
     color: #000; 
   }
 
+  #home{
+    height: 800px;
+  }
+
+  .home_img{
+    height: 400px;
+    width: 400px;
+  }
+
   #about{
-    height: 1300px;
+    margin-top: 150px;
+    height: 1000px;
+    gap: 20px;
   }
 
   .about_img{
-    padding-top: 50px;
-  }
+    height: 350px;
+    width: 350px;
+  }  
 
   .about_text {
     height: 1000px;
@@ -196,7 +257,7 @@
 
 
   #services{
-    height: 2000px;
+    height: 1500px;
   }
 
   .services_fondo{
@@ -213,9 +274,10 @@
     z-index: 10;
   }
 
+
   #services{
     height: 1500px;
-  }
+  } 
 
   .services_fondo{
     visibility: hidden;
